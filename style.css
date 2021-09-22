@@ -1,0 +1,39 @@
+body {
+  background: #FBF4E9;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+}
+
+/* div {
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  background-color: green;
+} */
+
+td:nth-child(odd) {
+  border: 8px solid orange;
+  background: green;
+}
+
+td:nth-child(even) {
+  border: 8px solid green;
+  background: orange;
+}
+
+div:nth-child(odd) {
+  height: 40px;
+  width: 40px;
+  background: orange;
+  margin: auto;
+}
+
+div:nth-child(even) {
+  height: 40px;
+  width: 40px;
+  background: green;
+  margin: auto;
+}
